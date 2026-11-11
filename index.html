@@ -15,6 +15,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="Für Restaurants in Deutschland und Österreich: Online-Reservierung über die eigene Website, Tischplan und Reservierungsbuch zum Festpreis.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -73,38 +77,68 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">TischFrei</a></div>
-  <nav class="top"><a href="#was" data-ev="click_nav_was">Was Sie bekommen</a><a href="price.html" data-ev="click_nav_preis">Preis</a><a href="#beispiel" data-ev="click_nav_beispiel">Beispiel</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">TischFrei</a>
+  <nav><a href="#was" data-ev="click_nav_was">Was Sie bekommen</a><a href="price.html" data-ev="click_nav_preis">Preis</a><a href="#beispiel" data-ev="click_nav_beispiel">Beispiel</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Online-Tischreservierung für Ihr Restaurant — fester Monatspreis, keine Gebühr pro Gast</h1>
-    <p class="sub">Für Restaurants mit Tischservice: Gäste reservieren direkt auf Ihrer Website und bei Google, Sie führen Tischplan und Reservierungsbuch an einem Ort und zahlen einen festen Monatspreis statt einer Provision pro Buchung.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">Das brauche ich</a>
-    <p class="cta-note">Früher Zugang · Auf dieser Seite wird noch keine Zahlung angenommen</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> Für Restaurants mit Tischservice</p>
+      <h1 class="rise" style="--i:1" data-len="long">Online-Tischreservierung für Ihr Restaurant&nbsp;<span class="soft">— fester Monatspreis, keine Gebühr pro Gast</span></h1>
+      <p class="rise" style="--i:2">Für Restaurants mit Tischservice: Gäste reservieren direkt auf Ihrer Website und bei Google, Sie führen Tischplan und Reservierungsbuch an einem Ort und zahlen einen festen Monatspreis statt einer Provision pro Buchung.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">Das brauche ich</a>
+      <p class="meta rise" style="--i:4">Früher Zugang · Auf dieser Seite wird noch keine Zahlung angenommen</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="130" y="168" font-size="40" font-weight="600" fill="#0a1524">TischFrei</text><line x1="120" y1="220" x2="1080" y2="220" fill="none" stroke="#dde2ea" stroke-width="3" /><rect x="130" y="270" width="44" height="44" rx="8" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><text x="200" y="302" font-size="32" fill="#566174">Tischplan</text><rect x="130" y="360" width="44" height="44" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="200" y="370" width="240" height="22" rx="8" fill="#b9c3d2" /><rect x="130" y="450" width="44" height="44" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="200" y="460" width="360" height="22" rx="8" fill="#dde2ea" /><rect x="130" y="540" width="44" height="44" rx="8" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="200" y="550" width="200" height="22" rx="8" fill="#dfe8f7" /><rect x="700" y="270" width="370" height="390" rx="20" fill="#dfe8f7" /><text x="730" y="340" font-size="34" font-weight="600" fill="#0a1524">Reservierungsbuch</text><rect x="740" y="500" width="46" height="120" rx="8" fill="#ffffff" stroke="#b9c3d2" stroke-width="3" /><rect x="820" y="400" width="46" height="220" rx="8" fill="#12397a" stroke="#b9c3d2" stroke-width="3" /><rect x="900" y="460" width="46" height="160" rx="8" fill="#ffffff" stroke="#b9c3d2" stroke-width="3" /><rect x="980" y="530" width="46" height="90" rx="8" fill="#ffffff" stroke="#b9c3d2" stroke-width="3" /></svg></figure>
+    <dl class="facts">
+      <div><dt>Für</dt><dd>Restaurants mit Tischservice</dd></div>
+      <div><dt>Buch</dt><dd>Reservierungsbuch an einem Ort</dd></div>
+      <div><dt>Direkt</dt><dd>Reservieren direkt auf Ihrer</dd></div>
+      <div><dt>Noch</dt><dd>Der Dienst ist in Vorbereitung</dd></div>
+    </dl>
+  </section>
 
   <section id="was" data-view="features_view">
-    <h2>Was Sie bekommen</h2>
-    <div class="grid">
-      <div class="card"><b>Reservierung online</b><span>Ein Reservierungsfenster für Ihre Website, Ihr Google-Profil und soziale Medien.</span><br><a class="btn" href="price.html" data-ev="feature_online">Das brauche ich</a></div>
-      <div class="card"><b>Tischplan</b><span>Tische, Bereiche und Kapazitäten, automatisch passende Tische für jede Anfrage.</span><br><a class="btn" href="price.html" data-ev="feature_tischplan">Das brauche ich</a></div>
-      <div class="card"><b>Reservierungsbuch</b><span>Telefonische und Online-Reservierungen in einem Buch, auch auf dem Tablet.</span><br><a class="btn" href="price.html" data-ev="feature_buch">Das brauche ich</a></div>
-      <div class="card"><b>Erinnerungen</b><span>Bestätigung und Erinnerung per E-Mail oder SMS an den Gast.</span><br><a class="btn" href="price.html" data-ev="feature_erinnerung">Das brauche ich</a></div>
+    <div class="stack"><h2>Was Sie bekommen</h2></div>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><text x="80" y="110" font-size="32" font-weight="600" fill="#0a1524">Reservierung online</text><rect x="250" y="160" width="300" height="380" rx="36" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="330" y="184" width="140" height="16" rx="8" fill="#dde2ea" /><rect x="280" y="230" width="240" height="70" rx="16" fill="#dfe8f7" /><rect x="280" y="320" width="200" height="20" rx="8" fill="#dde2ea" /><rect x="280" y="356" width="150" height="20" rx="8" fill="#b9c3d2" /><rect x="280" y="430" width="240" height="52" rx="16" fill="#12397a" /></svg></div>
+        <h3>Reservierung online</h3><p>Ein Reservierungsfenster für Ihre Website, Ihr Google-Profil und soziale Medien.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_online">Das brauche ich</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="150" font-size="34" font-weight="600" fill="#0a1524">Tischplan</text><rect x="140" y="210" width="110" height="80" rx="12" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="300" y="210" width="110" height="80" rx="12" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="460" y="210" width="110" height="80" rx="12" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="140" y="330" width="110" height="80" rx="12" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="300" y="330" width="110" height="80" rx="12" fill="#12397a" stroke="#dde2ea" stroke-width="3" /><rect x="460" y="330" width="110" height="80" rx="12" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="140" y="450" width="110" height="80" rx="12" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="300" y="450" width="110" height="80" rx="12" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="460" y="450" width="110" height="80" rx="12" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /></svg></div>
+        <h3>Tischplan</h3><p>Tische, Bereiche und Kapazitäten, automatisch passende Tische für jede Anfrage.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_tischplan">Das brauche ich</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="80" y="70" width="640" height="460" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="150" font-size="34" font-weight="600" fill="#0a1524">Reservierungsbuch</text><rect x="130" y="230" width="48" height="48" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="210" y="242" width="340" height="24" rx="8" fill="#dde2ea" /><rect x="130" y="330" width="48" height="48" rx="10" fill="#12397a" stroke="#dde2ea" stroke-width="3" /><polyline points="140,356 150,366 168,344" fill="none" stroke="#ffffff" stroke-width="6" /><rect x="210" y="342" width="290" height="24" rx="8" fill="#dde2ea" /><rect x="130" y="430" width="48" height="48" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="210" y="442" width="240" height="24" rx="8" fill="#b9c3d2" /></svg></div>
+        <h3>Reservierungsbuch</h3><p>Telefonische und Online-Reservierungen in einem Buch, auch auf dem Tablet.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_buch">Das brauche ich</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="160" y="60" width="480" height="480" rx="18" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="200" y="140" font-size="34" font-weight="600" fill="#0a1524">Erinnerungen</text><rect x="200" y="190" width="360" height="20" rx="8" fill="#dde2ea" /><rect x="200" y="240" width="300" height="20" rx="8" fill="#b9c3d2" /><rect x="200" y="290" width="380" height="20" rx="8" fill="#dde2ea" /><rect x="200" y="340" width="240" height="20" rx="8" fill="#dfe8f7" /><circle cx="520" cy="450" r="42" fill="#dfe8f7" stroke="#12397a" stroke-width="4" /><polyline points="500,444 512,458 532,434" fill="none" stroke="#12397a" stroke-width="6" /></svg></div>
+        <h3>Erinnerungen</h3><p>Bestätigung und Erinnerung per E-Mail oder SMS an den Gast.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_erinnerung">Das brauche ich</a>
+      </article>
     </div>
   </section>
 
-  <section id="beispiel" data-view="example_view">
-    <h2>Beispiel (fiktive Daten)</h2>
-    <p class="fine">Restaurant mit 60 Plätzen in Stuttgart. Freitagabend: 22 Reservierungen, davon 15 online über die Website und das Google-Profil, 7 telefonisch ins Buch eingetragen. Der Tischplan schlägt für eine Sechsergruppe zwei zusammengestellte Tische vor; alle Gäste haben am Vormittag eine Erinnerung erhalten.</p>
-    <a class="cta" href="price.html" data-ev="click_cta_after_example">Paket wählen</a>
+  <section id="beispiel" data-view="example_view" class="split flip">
+    <div class="stack">
+      <h2>Beispiel</h2>
+      <p>Restaurant mit 60 Plätzen in Stuttgart. Freitagabend: 22 Reservierungen, davon 15 online über die Website und das Google-Profil, 7 telefonisch ins Buch eingetragen. Der Tischplan schlägt für eine Sechsergruppe zwei zusammengestellte Tische vor; alle Gäste haben am Vormittag eine Erinnerung erhalten.</p>
+    <a class="button" href="price.html" data-ev="click_cta_after_example">Paket wählen</a>
+    </div>
+<svg aria-hidden="true" focusable="false" class="shot reveal" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><line x1="240" y1="160" x2="960" y2="160" fill="none" stroke="#dde2ea" stroke-width="6" /><circle cx="240" cy="160" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="240" y="240" font-size="32" font-weight="600" text-anchor="middle" fill="#0a1524">Freitagabend</text><circle cx="600" cy="160" r="22" fill="#ffffff" stroke="#12397a" stroke-width="6" /><text x="600" y="240" font-size="32" font-weight="600" text-anchor="middle" fill="#0a1524">Sechsergruppe</text><circle cx="960" cy="160" r="22" fill="#12397a" stroke="#12397a" stroke-width="6" /><text x="960" y="240" font-size="32" font-weight="600" text-anchor="middle" fill="#0a1524">Erinnerung</text><rect x="120" y="320" width="960" height="400" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="170" y="400" font-size="36" font-weight="600" fill="#0a1524">Reservierungen</text><rect x="170" y="460" width="64" height="64" rx="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="260" y="460" width="64" height="64" rx="10" fill="#12397a" stroke="#dde2ea" stroke-width="3" /><rect x="350" y="460" width="64" height="64" rx="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="440" y="460" width="64" height="64" rx="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="530" y="460" width="64" height="64" rx="10" fill="#12397a" stroke="#dde2ea" stroke-width="3" /><rect x="620" y="460" width="64" height="64" rx="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="710" y="460" width="64" height="64" rx="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><rect x="170" y="580" width="520" height="24" rx="8" fill="#dde2ea" /><rect x="170" y="630" width="340" height="24" rx="8" fill="#b9c3d2" /></svg>
   </section>
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>So funktioniert es</h2>
-    <p>Viele Restaurants nehmen Reservierungen heute auf mehreren Wegen an: Telefon, E-Mail, Nachrichten in sozialen Medien und Plattformen, die pro Gast oder pro Buchung abrechnen. Je voller das Haus, desto teurer wird es dann. TischFrei ist ein Reservierungssystem zum festen Monatspreis: Die Gäste buchen bei Ihnen, und die Zahl der Buchungen verändert den Preis nicht.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>So funktioniert es</h2></div>
+    <div class="stack">
+      <p>Viele Restaurants nehmen Reservierungen heute auf mehreren Wegen an: Telefon, E-Mail, Nachrichten in sozialen Medien und Plattformen, die pro Gast oder pro Buchung abrechnen. Je voller das Haus, desto teurer wird es dann. TischFrei ist ein Reservierungssystem zum festen Monatspreis: Die Gäste buchen bei Ihnen, und die Zahl der Buchungen verändert den Preis nicht.</p>
     <p>Zuerst legen Sie Ihr Restaurant an: Bereiche wie Gastraum, Terrasse oder Nebenzimmer, Tische mit ihrer Platzzahl, Öffnungszeiten und die Zeit, die ein Tisch üblicherweise belegt ist. Daraus berechnet TischFrei, wann wie viele Plätze frei sind.</p>
     <p>Das Reservierungsfenster binden Sie auf Ihrer Website ein und verlinken es in Ihrem Google-Profil und in sozialen Medien. Der Gast wählt Datum, Uhrzeit und Personenzahl, sieht nur freie Zeiten und erhält sofort eine Bestätigung. Für große Gruppen oder bestimmte Tage können Sie festlegen, dass eine Anfrage erst nach Ihrer Freigabe gilt.</p>
     <p>Telefonische Reservierungen tragen Sie in dasselbe Buch ein, am Tresen auf dem Tablet oder am Telefon. So gibt es nur eine Liste für den Abend, und keine Reservierung wird doppelt vergeben. Der Tischplan zeigt, welcher Tisch wann belegt ist, und schlägt für jede neue Reservierung passende Tische vor.</p>
@@ -114,31 +148,34 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p>TischFrei ist für Restaurants mit Tischservice in Deutschland und Österreich gedacht, vom kleinen Lokal bis zum Haus mit mehreren Räumen. Der Preis ist monatlich und fest, ohne Provision pro Gast oder pro Buchung.</p>
     <p>Der Start dauert einen Nachmittag. Sie legen Bereiche und Tische an, stellen Öffnungszeiten und Reservierungsregeln ein und erhalten einen Code für Ihre Website sowie einen Link für Ihr Google-Profil. Am ersten Abend arbeitet Ihr Team mit dem Buch auf dem Tablet, telefonische Reservierungen eingeschlossen. Spätere Änderungen an Tischen oder Öffnungszeiten gelten sofort für alle neuen Anfragen. Bestehende Reservierungen bleiben dabei unverändert, und Ihr Team sieht jede Änderung im Buch. Am Monatsende zeigt eine Übersicht, wie viele Gäste online und telefonisch reserviert haben.</p>
     <p>TischFrei ist ein Reservierungswerkzeug. Für den Umgang mit Gästedaten und die eigenen Geschäftsbedingungen bleibt das Restaurant verantwortlich.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Häufige Fragen</h2>
-    <h3>Für wen ist TischFrei?</h3>
-    <p>Für Restaurants mit Tischservice in Deutschland und Österreich.</p>
-    <h3>Gibt es eine Gebühr pro Gast?</h3>
-    <p>Nein. Der Preis ist monatlich und fest, unabhängig von der Zahl der Buchungen.</p>
-    <h3>Kann ich telefonische Reservierungen eintragen?</h3>
-    <p>Ja, telefonische und Online-Reservierungen stehen im selben Buch.</p>
-    <h3>Kann ich bestehende Reservierungen übernehmen?</h3>
-    <p>Ja, Reservierungen und Gästelisten lassen sich als Datei übernehmen.</p>
-    <h3>Kann ich TischFrei schon nutzen?</h3>
-    <p>Noch nicht. Der Dienst ist in Vorbereitung, und wir prüfen, ob Restaurants ihn brauchen.</p>
+    <div class="stack"><h2>Häufige Fragen</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Für wen ist TischFrei?</h3><p>Für Restaurants mit Tischservice in Deutschland und Österreich.</p></div>
+      <div class="split flip"><h3>Gibt es eine Gebühr pro Gast?</h3><p>Nein. Der Preis ist monatlich und fest, unabhängig von der Zahl der Buchungen.</p></div>
+      <div class="split flip"><h3>Kann ich telefonische Reservierungen eintragen?</h3><p>Ja, telefonische und Online-Reservierungen stehen im selben Buch.</p></div>
+      <div class="split flip"><h3>Kann ich bestehende Reservierungen übernehmen?</h3><p>Ja, Reservierungen und Gästelisten lassen sich als Datei übernehmen.</p></div>
+      <div class="split flip"><h3>Kann ich TischFrei schon nutzen?</h3><p>Noch nicht. Der Dienst ist in Vorbereitung, und wir prüfen, ob Restaurants ihn brauchen.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Restaurant anlegen</h2>
-    <p><label>Anzahl Sitzplätze<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— bitte wählen —</option><option>Bis 30</option><option>31–60</option><option>61–120</option><option>Mehr als 120</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Restaurant anlegen</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Restaurant anlegen</h2>
+    </div>
+    <div class="tile stack">
+      <label>Anzahl Sitzplätze<select data-ev-focus="form_start"><option value="">— bitte wählen —</option><option>Bis 30</option><option>31–60</option><option>61–120</option><option>Mehr als 120</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Restaurant anlegen</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>TischFrei</b></p>
   <p><a href="privacy.html" data-ev="click_legal_privacy">Datenschutz</a></p>
-  <p class="muted">TischFrei ist ein Reservierungswerkzeug. Für Gästedaten und Geschäftsbedingungen bleibt das Restaurant verantwortlich.</p>
+  <p>TischFrei ist ein Reservierungswerkzeug. Für Gästedaten und Geschäftsbedingungen bleibt das Restaurant verantwortlich.</p>
 </div></footer>
 
 </body>
